@@ -1,5 +1,6 @@
-import React from "react";
-import TodoItems from "./TodoItems";
+import React from 'react';
+import TodoItems from './TodoItems';
+import './TodoList.css';
 
 export default class TodoList extends React.Component {
     constructor(props) {
@@ -36,8 +37,8 @@ export default class TodoList extends React.Component {
                 <div className="header">
                     <form onSubmit={this.addItem}>
                         <input  ref={(a) => this._inputElement = a} 
-                                placeholder="So it shall be written..." />
-                        <button type="submit">ADD!</button>
+                                placeholder="enter todo" />
+                        <button type="submit">add</button>
                     </form>
                 </div>
                 <TodoItems entries={this.state.items}/>

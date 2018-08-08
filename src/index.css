@@ -1,10 +1,14 @@
 body {
     padding: 50px;
-    background-color:rgb(182, 0, 0);
+    background-color:rgba(235, 11, 11, 0.952);
     font-family: sans-serif;
 }
 
 #container {
     display: flex;
     justify-content: flex;
+}
+
+ul {
+    color: yellow;
 }
