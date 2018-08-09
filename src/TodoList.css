@@ -18,5 +18,24 @@
 .todoListMain .header button:hover {
     cursor: pointer;
     background-color: yellow;
-    border: 2px solid rgb(255, 0, 0)
+    border: 2px solid yellow;
+}
+
+.todoListMain .ItemList li {
+    color: #333;
+    background-color: rgba(255, 251, 0, 0.733);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+}
+
+.todoListMain .ItemList li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+ul.ItemList {
+    padding: 0;
 }
