@@ -24,12 +24,10 @@ export default class TodoList extends React.Component {
                  return { items: prevState.items.concat(newTask) };
             });
         }
-
         this._inputElement.value = "";
-        e.preventDefault();
-        // Makes sure the submit doesn't wipe away changes
         
-        console.log(this.state.items);
+        // Makes sure the submit doesn't wipe away changes
+        e.preventDefault();
     }
 
     deleteItem(key) {
